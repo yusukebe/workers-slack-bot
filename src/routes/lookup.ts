@@ -24,7 +24,9 @@ app.post('/', async (c) => {
 
 app.onError((_e, c) => {
 	return c.json({
-		text: "Uh-oh! We couldn't find the issue you provided. We can only find public issues in the following format: `owner/repo#issue_number`.",
+		text:
+			"Uh-oh! We couldn't find the issue you provided. " +
+			'We can only find public issues in the following format: `owner/repo#issue_number`.',
 	});
 });
 
