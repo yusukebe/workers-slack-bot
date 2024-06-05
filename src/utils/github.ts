@@ -1,4 +1,4 @@
-const ghIssueRegex = /(?<owner>\w*)\/(?<repo>\w*)\#(?<issue_number>\d*)/;
+const ghIssueRegex = /(?<owner>[\w.-]*)\/(?<repo>[\w.-]*)\#(?<issue_number>\d*)/;
 
 export const parseGhIssueString = (text: string) => {
 	const match = text.match(ghIssueRegex);

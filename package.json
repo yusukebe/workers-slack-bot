@@ -1,18 +1,13 @@
 {
-	"name": "workers-slack-example",
-	"description": "Example project for Slack + Workers bot",
-	"version": "0.0.0",
-	"private": true,
 	"scripts": {
-		"deploy": "wrangler deploy --minify",
-		"start": "wrangler dev"
-	},
-	"devDependencies": {
-		"@cloudflare/workers-types": "^4.20230419.0",
-		"typescript": "^5.0.4",
-		"wrangler": "^3.1.0"
+		"dev": "wrangler dev",
+		"deploy": "wrangler deploy --minify"
 	},
 	"dependencies": {
-		"hono": "^3.2.5"
+		"hono": "^4.4.3"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20240603.0",
+		"wrangler": "^3.57.2"
 	}
 }

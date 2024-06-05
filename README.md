@@ -1,4 +1,4 @@
-# workers-slack-example
+# Building a Slackbot on Cloudflare Workers
 
 This code is based on <https://github.com/codewithkristian/workers-slack-bot>
 
