@@ -33,9 +33,7 @@ app.post('/', async (c) => {
 });
 
 app.onError((_e, c) => {
-	return c.json({
-		message: 'Unable to handle webhook',
-	});
+	return c.text('Unable to handle webhook', 500);
 });
 
 export default app;
