@@ -17,7 +17,7 @@ wrangler secret put SLACK_WEBHOOK_URL
 ## Develop
 
 ```
-npm run start
+npm run dev
 ```
 
 ## Deploy
