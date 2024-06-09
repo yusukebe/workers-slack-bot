@@ -1,6 +1,6 @@
 #:schema node_modules/wrangler/config-schema.json
 name = "slack-bot"
-main = "src/index.ts"
+main = "src/worker.ts"
 compatibility_date = "2024-06-03"
 
 # Automatically place your workloads in an optimal location to minimize latency.
